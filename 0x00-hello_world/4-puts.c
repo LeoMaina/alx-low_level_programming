@@ -3,8 +3,9 @@
 #include<stdio.h>
 
 /**
- * Main - print "Programming is like building a multilingual puzzle
- * return zero
+ * Main -Entry point
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
