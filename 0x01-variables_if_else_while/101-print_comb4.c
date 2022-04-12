@@ -1,103 +1,34 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
 
-
-
-/* betty style doc for function main goes there */
-
 /**
+ * main - Entry
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
-
+ * Return: 0
+ */
 int main(void)
-
 {
+	int num1, num2, num3;
 
-		int i;
+	for (num1 = 0; num1 < 10; num1++)
+	{
+		for (num2 = num1 + 1; num2 < 9; num2++)
+		{
+			for (num3 = num1 + 2; num3 < 10; num3++)
+			{
+				putchar(num1 + '0');
+				putchar(num2 + '0');
+				putchar(num3 + '0');
 
-			int j;
+				if (num1 < 7)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
 
-				int k;
-
-
-
-					i = 48;
-
-						j = 49;
-
-							k = 50;
-
-								while  ((i < 56) && (j < 57) && (k < 58))
-
-										{
-
-													putchar(i);
-
-															putchar(j);
-
-																	putchar(k);
-
-																			if ((i == 55) && (j == 56) && (k == 57))
-
-																						{
-
-																										putchar('\n');
-
-																													i++;
-
-																																j++;
-
-																																			k++;
-
-																																					}
-
-																					else
-
-																								{
-
-																												putchar(44);
-
-																															putchar(32);
-
-																																		if (k < 57)
-
-																																						{
-
-																																											k++;
-
-																																														}
-
-																																					else if ((j < 56) && (k == 57))
-
-																																									{
-
-																																														k = 1 + ++j;
-
-																																																	}
-
-																																								else
-
-																																												{
-
-																																																	j = 1 + ++i;
-
-																																																					k = 1 + j;
-
-																																																								}
-
-																																										}
-
-																						}
-
-									return (0);
-
+	return (0);
 }
+
