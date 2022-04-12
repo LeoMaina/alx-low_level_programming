@@ -1,6 +1,6 @@
-#ifndef HOLBERTON_H_
+#ifndef MAIN_H_INCLUDED
 
-#define HOLBERTON_H_
+#define MAIN_H_INCLUDED
 
 
 
