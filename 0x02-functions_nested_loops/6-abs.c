@@ -3,7 +3,7 @@
 /**
  * _abs - outputs the absolute value of a number
  *
- * @int: - integer under check
+ * @n: - integer under check
  *
  * Return: 0
  */
