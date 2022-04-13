@@ -20,13 +20,14 @@ void print_times_table(int n)
 
 		for (b = 1; b <= n; b++)
 		{
+			c = a * b;
+
 			_putchar(',');
 			_putchar(' ');
 
-			c = a * b;
-
 			if (c <= 9)
 			{
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(c + '0');
 			}
