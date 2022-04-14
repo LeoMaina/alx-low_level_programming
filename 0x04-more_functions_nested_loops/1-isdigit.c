@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - check
+ * @c: parameter
  * Return: int
  */
 int _isdigit(int c)
