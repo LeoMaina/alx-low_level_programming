@@ -3,7 +3,7 @@
 /**
  * _isupper - uppercase letter
  * @c: paramter
- * return: int
+ * Return: int
  */
 int _isupper(int c)
 {
