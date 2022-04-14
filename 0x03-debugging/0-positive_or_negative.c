@@ -7,9 +7,8 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+void positive_or_negative(int i)
 {
-	int i;
 
 	if (i > 0)
 	{
@@ -19,11 +18,10 @@ int main(void)
 	{
 		printf("%d is negative\n", i);
 	}
-	else if (i == 0)
+	else
 	{
 		printf("%d is zero\n", i);
 	}
 
-	return (0);
 }
 
