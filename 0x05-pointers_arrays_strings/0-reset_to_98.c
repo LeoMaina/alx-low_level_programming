@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - update n
  *
- * :@n - parameter
+ * @n: parameter
  */
 void reset_to_98(int *n)
 {
