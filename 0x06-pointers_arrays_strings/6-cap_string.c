@@ -21,9 +21,9 @@ char *cap_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		for (j =0; j < 13; j++)
+		for (j = 0; j < 13; j++)
 		{
-			if ((s[i] >= 97 && s[i] <= 122) && s[i - 1] == spe[j])
+			if ((s[i] >= 97 && s[i] <= 122) && (s[i - 1] == spe[j]))
 			{
 				s[i] = s[i] - 32;
 			}
