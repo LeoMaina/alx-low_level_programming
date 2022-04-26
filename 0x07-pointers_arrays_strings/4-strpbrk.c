@@ -2,7 +2,7 @@
 #define NULL 0
 
 /**
- * _strpbrk - locates first occurence 
+ * _strpbrk - locates first occurence
  *
  * @s: string to be checked
  * @accept: string to be matched
