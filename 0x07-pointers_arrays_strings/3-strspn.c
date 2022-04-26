@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strspn - returns no of bytes of initial segment which consists only of bytes from accept
+ * _strspn - returns no of bytes of initial segment
+ * which consists only of bytes from accept
  *
  * @s: string
  * @accept: target string
