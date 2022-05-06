@@ -22,11 +22,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	for (i = 1; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 	{
 		;
 	}
-	for (j = 1; s2[j] != '\0'; j++)
+	for (j = 0; s2[j] != '\0'; j++)
 	{
 		;
 	}
@@ -37,12 +37,12 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (k = 0; k < i; k++)
+	for (k = 0; k <= i; k++)
 	{
 		buf[k] = s1[k];
 	}
 	max_limit = j;
-	for (j = 0; j < max_limit; j++, k++)
+	for (j = 0; j <= max_limit; j++, k++)
 	{
 		buf[k] = s2[j];
 	}
