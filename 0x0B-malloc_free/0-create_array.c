@@ -27,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size; i++)
 	{
-		buf[i] = 'H';
+		buf[i] = c;
 	}
 	return (buf);
 }
