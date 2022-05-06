@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 		free(buf);
 		return (NULL);
 	}
-	for (k = 0; k <= i; k++)
+	for (k = 0; k < i; k++)
 	{
 		buf[k] = s1[k];
 	}
