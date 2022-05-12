@@ -3,9 +3,8 @@
 
 /**
  * dog_t - Typedef for struct dog
- * Description: 
+ *
  */
-
 typedef struct dog dog_t;
 
 /**
