@@ -2,6 +2,13 @@
 #define _DOG_H_
 
 /**
+ * dog_t - Typedef for struct dog
+ * Description: 
+ */
+
+typedef struct dog dog_t;
+
+/**
  * struct dog - Description
  *
  * @name: first member
